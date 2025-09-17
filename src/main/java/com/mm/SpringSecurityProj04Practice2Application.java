@@ -17,6 +17,9 @@ public class SpringSecurityProj04Practice2Application {
 	public BCryptPasswordEncoder passEncoder() {
 		return new BCryptPasswordEncoder();
 	}
+
+	
+
 	
 
 }

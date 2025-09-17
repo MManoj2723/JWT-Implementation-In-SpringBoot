@@ -58,7 +58,7 @@ public class SecurityOperationsController {
 	
 	@GetMapping("/getToken")
 	public CsrfToken getTheToken(HttpServletRequest req) {
-	
+	System.out.println("SecurityOperationsController.getTheToken()");
 		return (CsrfToken)req.getAttribute("_csrf");
 	}
 
